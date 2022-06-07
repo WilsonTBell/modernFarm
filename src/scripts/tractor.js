@@ -5,7 +5,7 @@ import { createAsparagus } from "./seeds/asparagus.js"
 import { createSoybean } from "./seeds/soybean.js"
 import { createWheat } from "./seeds/wheat.js"
 import { createSunflower } from "./seeds/sunflower.js"
-import { addPlant } from "./fields.js"
+import { addPlant } from "./field.js"
 
 export const plantSeeds = (planArray) => {
     // Iterate through the array of arrays

@@ -1,13 +1,12 @@
+
 export const harvestPlants = (plantArray) => {
     let harvestedPlants = []
     for (const plant of plantArray) {
-        if (plant.type = "Corn"){
-            for (const corn of plant) {
-                
-            }
+            const finalPlantOutput = plant.type === "Corn" ? plant.output * 0.5 : plant.output
+        
+            for (let index = 1; index <= finalPlantOutput; index++) {
+                harvestedPlants.push(plant)
+             }
         }
-        else {
-            
-        }
-    }
+    return harvestedPlants
 }

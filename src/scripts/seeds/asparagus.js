@@ -1,8 +1,8 @@
 export const createAsparagus = () =>{
     const asparagus = {
         type:"Asparagus",
-        height: 380,
-        output: 3
+        height: 24,
+        output: 4
     }
     return asparagus;
 }

@@ -34,3 +34,14 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: darksalmon;
+}
+
+.plant{
+    font-size: xx-large;
+}
